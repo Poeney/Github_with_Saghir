@@ -22,5 +22,5 @@ summary(ChickWeight)
 
 
 ```{r CWplot}
-with(ChickWeight,plot(Time, weight, col=Diet))
+with(ChickWeight,plot(Time, weight, col=Diet, pch=5))
 ```
